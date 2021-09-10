@@ -91,13 +91,13 @@ class SignUp extends Component {
     return (
       <div className="wrapper">
         <div className="form-wrapper">
-          <h1>Kreiraj nalog</h1>
+          <h1>Create an Account</h1>
           <form onSubmit={this.handleSubmit} noValidate>
             <div className="firstName">
               <label htmlFor="firstName">Name</label>
               <input
                 className={formErrors.firstName.length > 0 ? "error" : null}
-                placeholder="Ime"
+                placeholder="Name"
                 type="text"
                 name="firstName"
                 noValidate
@@ -111,7 +111,7 @@ class SignUp extends Component {
               <label htmlFor="lastName">Last Name</label>
               <input
                 className={formErrors.lastName.length > 0 ? "error" : null}
-                placeholder="Prezime"
+                placeholder="Last Name"
                 type="text"
                 name="lastName"
                 noValidate
@@ -139,7 +139,7 @@ class SignUp extends Component {
               <label htmlFor="password">Password</label>
               <input
                 className={formErrors.password.length > 0 ? "error" : null}
-                placeholder="Šifra"
+                placeholder="Password"
                 type="password"
                 name="password"
                 noValidate

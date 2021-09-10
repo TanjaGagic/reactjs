@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Andromeda from './img-1.jpg'
+import NPX32 from './img-4.jpg'
 
 function CardItem(props) {
   return (
@@ -11,7 +11,7 @@ function CardItem(props) {
             <img
               className='cards__item__img'
               alt='Destination'
-              src={Andromeda}
+              src={NPX32}
             />
           </figure>
           <div className='cards__item__info'>

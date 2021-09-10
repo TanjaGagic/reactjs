@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Andromeda from './img-1.jpg'
+import MilkyWay from './img-3.jpg'
 
 function CardItem(props) {
   return (
@@ -11,7 +11,7 @@ function CardItem(props) {
             <img
               className='cards__item__img'
               alt='Destination'
-              src={Andromeda}
+              src={MilkyWay}
             />
           </figure>
           <div className='cards__item__info'>
