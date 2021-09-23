@@ -1,10 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import CardItem2 from './CardItem2';
-import CardItem3 from './CardItem3';
-import CardItem4 from './CardItem4';
-import CardItem5 from './CardItem5';
+
 import Andromeda from './img-1.jpg'
 import Sombrero from './img-2.jpg'
 import MilkyWay from './img-3.jpg'
@@ -24,27 +21,27 @@ function Cards() {
               label='Andromeda'
               path='/offers'
             />
-            <CardItem2
-              src={Sombrero}
+            <CardItem
+              src= {Sombrero}
               text='Meet the heights of human exploration'
               label='Sombrero'
               path='/offers'
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem3
+            <CardItem
               src={MilkyWay}
               text='Find beauties in our own galaxy'
               label='Milky Way'
               path='/offers'
             />
-            <CardItem4
+            <CardItem
               src={NPX32}
               text='Get to know recently discovered worlds'
               label='NPX32'
               path='/offers'
             />
-            <CardItem5
+            <CardItem
               src={Butterfly}
               text='Be amazed by corners of the universe'
               label='Butterfly Nebula'
